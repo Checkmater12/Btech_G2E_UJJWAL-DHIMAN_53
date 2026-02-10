@@ -1,22 +1,18 @@
 #include <stdio.h>
 
-int main() {
-    int a, b, temp;
+int main()
+{
+    int num1, num2;
 
-    // Input values
-    printf("Enter two numbers:\n");
-    scanf("%d %d", &a, &b);
+    printf("Enter first number: ");
+    scanf("%d", &num1);
 
-    // Swapping using third variable
-    temp = a;
-    a = b;
-    b = temp;
+    printf("Enter second number: ");
+    scanf("%d", &num2);
 
-    // Output result
-    printf("After swapping:\n");
-    printf("a = %d\n", a);
-    printf("b = %d\n", b);
-
-    return 0;
-}
-
+    if (num1 == num2)
+    {
+        printf("Both numbers are equal.\n");
+    }
+    else
+    {
